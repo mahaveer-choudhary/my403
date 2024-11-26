@@ -19,52 +19,57 @@ A Python tool to bypass 403/401 HTTP status code using various techniques such a
 ## Modes
 
 - Scan with specific payloads: 
+
     [`--header`] Supprt HEADER Based bypasses/payloads
     ```bash
-        python3 my403.py --url <target_url> --header
+    python3 my403.py --url <target_url> --header
     ```
 
     [`--protocol`] Support PROTOCOL based bypasses/payloads
     ```bash
-        python3 my403.py --url <target_url> --protocol
+    python3 my403.py --url <target_url> --protocol
     ```
 
     [`--port`] Support PORT based bypasses/payloads
     ```bash
-        python3 my403.py --url <target_url> --port
+    python3 my403.py --url <target_url> --port
     ```
 
     [`--HTTPmethod`] Support HTTP Method based bypasses/payload
     ```bash
-        python3 my403.py --url <target_url> --HTTPmethod
+    python3 my403.py --url <target_url> --HTTPmethod
     ```
 
     [`--encode] Support URL Encoding based bypasses/payloads
     ```bash
-        python3 my403.py --url <target_url> --encode
+    python3 my403.py --url <target_url> --encode
     ```
 
     [`--SQLi] Support SQLi based bypasses/payload
     ```bash
-        python3 my403.py --url <target_url> --SQLi
+    python3 my403.py --url <target_url> --SQLi
     ```
 
     [`--exploit`] Run all bypass techniques 
     ```bash
-        python3 my403.py --url <target_url> --exploit
+    python3 my403.py --url <target_url> --exploit
     ```
 
 
 ## Output Indicators
 Green: 2xx status codes (Success).
+
 Yellow: 3xx status codes (Redirection).
+
 Red: 4xx/5xx status codes (Client/Server errors).
+
 Blue: 4xx status codes
 
 
 #### Prerequisites 
 
 python 3.x
+
 [`request`] module : Install via [`pip install requests`]
 
 
