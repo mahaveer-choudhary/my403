@@ -20,37 +20,37 @@ A Python tool to bypass 403/401 HTTP status code using various techniques such a
 
 - Scan with specific payloads: 
 
-    [`--header`] Supprt HEADER Based bypasses/payloads
+    `--header` Supprt HEADER Based bypasses/payloads
     ```bash
     python3 my403.py --url <target_url> --header
     ```
 
-    [`--protocol`] Support PROTOCOL based bypasses/payloads
+    `--protocol` Support PROTOCOL based bypasses/payloads
     ```bash
     python3 my403.py --url <target_url> --protocol
     ```
 
-    [`--port`] Support PORT based bypasses/payloads
+    `--port` Support PORT based bypasses/payloads
     ```bash
     python3 my403.py --url <target_url> --port
     ```
 
-    [`--HTTPmethod`] Support HTTP Method based bypasses/payload
+    `--HTTPmethod` Support HTTP Method based bypasses/payload
     ```bash
     python3 my403.py --url <target_url> --HTTPmethod
     ```
 
-    [`--encode] Support URL Encoding based bypasses/payloads
+    `--encode` Support URL Encoding based bypasses/payloads
     ```bash
     python3 my403.py --url <target_url> --encode
     ```
 
-    [`--SQLi] Support SQLi based bypasses/payload
+    `--SQLi` Support SQLi based bypasses/payload
     ```bash
     python3 my403.py --url <target_url> --SQLi
     ```
 
-    [`--exploit`] Run all bypass techniques 
+    `--exploit` Run all bypass techniques 
     ```bash
     python3 my403.py --url <target_url> --exploit
     ```
@@ -70,7 +70,11 @@ Blue: 4xx status codes
 
 python 3.x
 
-[`request`] module : Install via [`pip install requests`]
+`request` module
+Install via
+```bash
+pip3 install requests
+```
 
 
 ### Disclaimer
