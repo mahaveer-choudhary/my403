@@ -71,6 +71,7 @@ Blue: 4xx status codes
 python 3.x
 
 `request` module
+
 Install via
 ```bash
 pip3 install requests
