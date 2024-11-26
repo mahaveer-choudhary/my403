@@ -13,7 +13,7 @@ A Python tool to bypass 403/401 HTTP status code using various techniques such a
 ## Usage
 
 ```bash
-    python3 my403.py --url <target_url> [options]
+python3 my403.py --url <target_url> [options]
 ```
 
 ## Modes
