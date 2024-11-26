@@ -15,7 +15,7 @@ A Python tool to bypass 403/401 HTTP status code using various techniques such a
 ```bash
 python3 my403.py --url <target_url> [options]
 ```
-<img src="images/help.png" alt="4-ZERO-3" width="1000px">
+<img src="images/help.png" alt="loading error" width="1000px">
 
 ## Modes
 
